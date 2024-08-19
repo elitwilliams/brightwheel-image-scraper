@@ -48,16 +48,26 @@ Before you begin, ensure you have met the following requirements:
 Run the script from the command line:
 
 ```
-python brightwheel_image_scraper.py
+python brightwheel_scraper.py
 ```
 
 If you want to select a specific student by their number in the list, use the `-n` or `--student-number` option:
 
 ```
-python brightwheel_image_scraper.py -n 1
+python brightwheel_scraper.py -n 1
 ```
 
 This will select the first student in the list. If you don't use this option, you'll be prompted to select a student interactively.
+
+## Important Notes
+
+- **Two-Factor Authentication (2FA)**: After logging in, you will need to enter a 2FA code sent to your email within 30 seconds. Be prepared to access your email quickly after starting the script.
+
+- **Login Attempts**: If you attempt to log in too many times in quick succession, your account may be temporarily locked out. If this happens, wait for a short period before trying again.
+
+- This script uses Selenium with undetected_chromedriver to automate browser interactions. Make sure you have the latest version of Chrome installed.
+- The script includes random waits between actions to mimic human behavior and avoid being flagged as a bot.
+- Be respectful of Brightwheel's systems and terms of service when using this script.
 
 ## Output
 
@@ -73,12 +83,6 @@ Where `YYYY-MM-DD` is the date of the photo, and the number at the end is a sequ
 
 The script logs its actions to both the console and a file named `scraper.log`. Check this file for detailed information about the script's execution and any errors that may occur.
 
-## Important Notes
-
-- This script uses Selenium with undetected_chromedriver to automate browser interactions. Make sure you have the latest version of Chrome installed.
-- The script includes random waits between actions to mimic human behavior and avoid being flagged as a bot.
-- Be respectful of Brightwheel's systems and terms of service when using this script.
-
 ## Troubleshooting
 
 If you encounter any issues:
@@ -87,6 +91,7 @@ If you encounter any issues:
 2. Ensure your `config.yml` file is correctly formatted and contains valid credentials.
 3. Make sure you have the latest version of Chrome installed.
 4. Check that all required Python packages are installed correctly.
+5. If you're consistently getting locked out, try increasing the wait times in the script.
 
 ## Disclaimer
 
