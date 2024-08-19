@@ -30,7 +30,7 @@ Before you begin, ensure you have met the following requirements:
 
    Note: You may want to do this in a virtual environment.
 
-3. Create a `config.yml` file in the same directory as the script with the following structure:
+3. Update the `config.yml` file in the same directory as the script with the following structure:
 
    ```yaml
    bwuser: "your_brightwheel_username"
