@@ -5,3 +5,4 @@ config.yml
 pics/*.png
 pics/*.jpg
 pics/*.jpeg
+.DS_Store
