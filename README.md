@@ -48,13 +48,13 @@ Before you begin, ensure you have met the following requirements:
 Run the script from the command line:
 
 ```
-python brightwheel_scraper.py
+python brightwheel_image_scraper.py
 ```
 
 If you want to select a specific student by their number in the list, use the `-n` or `--student-number` option:
 
 ```
-python brightwheel_scraper.py -n 1
+python brightwheel_image_scraper.py -n 1
 ```
 
 This will select the first student in the list. If you don't use this option, you'll be prompted to select a student interactively.
