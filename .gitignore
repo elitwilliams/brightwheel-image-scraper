@@ -6,3 +6,4 @@ pics/*.jpg
 pics/*.jpeg
 .DS_Store
 **/.DS_Store
+*.code-workspace

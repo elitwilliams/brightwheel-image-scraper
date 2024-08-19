@@ -1,13 +1,6 @@
-# Web scraping and automation
-selenium==4.9.0
-undetected-chromedriver==3.5.0
-beautifulsoup4==4.12.2
-
-# HTTP requests
-requests==2.31.0
-
-# YAML parsing
-pyyaml==6.0
-
-# Date and time handling
-python-dateutil==2.8.2
+beautifulsoup4
+python-dateutil
+pyyaml
+requests
+selenium
+undetected-chromedriver
