@@ -1,5 +1,4 @@
 .vscode/
-config.yml
 *.log
 !pics/README.md
 pics/*.png

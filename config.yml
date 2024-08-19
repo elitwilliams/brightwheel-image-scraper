@@ -1,0 +1,6 @@
+bwuser: "YOUR_EMAIL_HERE"
+bwpass: "YOUR_PASSWORD_HERE"
+bwsignin: "https://schools.mybrightwheel.com/sign-in"
+bwlist: "https://schools.mybrightwheel.com/children/list"
+startdate: "08/01/2024"
+enddate: "08/18/2024"
