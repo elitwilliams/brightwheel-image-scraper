@@ -96,3 +96,7 @@ If you encounter any issues:
 ## Disclaimer
 
 This script is for personal use only. Make sure you comply with Brightwheel's terms of service when using this script. The authors are not responsible for any misuse or any violations of Brightwheel's terms of service.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
