@@ -1,4 +1,4 @@
-# Brightwheel Scraper
+# Brightwheel Image Scraper
 
 This Python script automates the process of downloading photos from Brightwheel, an education management platform. It logs into your Brightwheel account, navigates to a specified student's profile, and downloads all photos within a given date range.
 
